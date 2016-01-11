@@ -1,0 +1,39 @@
+uniform float colorIndex;
+uniform sampler2D map;
+varying vec2 vUv;
+
+bool close(vec3 a, vec3 b, float epsilon) { return length(a - b) < epsilon; }
+
+vec3 baseColor1 = vec3(79.0, 193.0, 160.0) / 255.0;
+vec3 targetColor1 = vec3(152.0, 171.0, 156.0) / 255.0;
+vec3 baseColor2 = vec3(75.0, 132.0, 103.0) / 255.0;
+vec3 targetColor2 = vec3(100.0, 81.0, 112.0) / 255.0;
+vec3 baseColor3 = vec3(120.0, 158.0, 134.0) / 255.0;
+vec3 targetColor3 = vec3(120.0, 158.0, 134.0) / 255.0;
+vec3 baseColor4 = vec3(38.0, 103.0, 109.0) / 255.0;
+vec3 targetColor4 = vec3(73.0, 54.0, 80.0) / 255.0;
+vec3 baseColor5 = vec3(19.0, 51.0, 54.0) / 255.0;
+vec3 targetColor5 = vec3(73.0, 27.0, 38.0) / 255.0;
+vec3 baseColor6 = vec3(127.0, 83.0, 47.0) / 255.0;
+vec3 targetColor6 = vec3(137.0, 152.0, 140.0) / 255.0;
+vec3 baseColor7 = vec3(253.0, 165.0, 94.0) / 255.0;
+vec3 targetColor7 = vec3(152.0, 76.0, 47.0) / 255.0;
+vec3 baseColor8 = vec3(184.0, 81.0, 47.0) / 255.0;
+vec3 targetColor8 = vec3(35.0, 17.0, 10.0) / 255.0;
+
+void main() {
+  vec4 baseTexture = texture2D(map, vUv);
+  vec4 texture = baseTexture;
+  if (colorIndex > 0.0) {
+    if (close(baseTexture.rgb, baseColor1, 0.17)) { texture.rgb = targetColor1; }
+    else if (close(baseTexture.rgb, baseColor2, 0.099)) { texture.rgb = targetColor2; }
+    else if (close(baseTexture.rgb, baseColor3, 0.1)) { texture.rgb = targetColor3; }
+    else if (close(baseTexture.rgb, baseColor4, 0.12)) { texture.rgb = targetColor4; }
+    else if (close(baseTexture.rgb, baseColor5, 0.08)) { texture.rgb = targetColor5; }
+    else if (close(baseTexture.rgb, baseColor6, 0.04)) { texture.rgb = targetColor6; }
+    else if (close(baseTexture.rgb, baseColor7, 0.08)) { texture.rgb = targetColor7; }
+    else if (close(baseTexture.rgb, baseColor8, 0.03)) { texture.rgb = targetColor8; }
+  }
+  
+  gl_FragColor = texture;
+}

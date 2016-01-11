@@ -1,0 +1,19 @@
+{
+  "formatVersion": 1,
+  "uniforms": [
+    {
+      "id": "0",
+      "name": "map",
+      "type": "t",
+      "value": "map"
+    },
+    {
+      "id": "1",
+      "name": "speed",
+      "type": "f",
+      "value": 0.3
+    }
+  ],
+  "useLightUniforms": false,
+  "attributes": []
+}

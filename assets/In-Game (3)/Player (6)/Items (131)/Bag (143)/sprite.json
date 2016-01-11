@@ -1,0 +1,135 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "pixelsPerUnit": 10,
+  "framesPerSecond": 10,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 116,
+    "height": 56
+  },
+  "origin": {
+    "x": 0.47,
+    "y": 0.32
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 4,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Idle Battle",
+      "startFrameIndex": 5,
+      "endFrameIndex": 9,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Walk",
+      "startFrameIndex": 10,
+      "endFrameIndex": 13,
+      "speed": 0.6
+    },
+    {
+      "id": "10",
+      "name": "Run",
+      "startFrameIndex": 14,
+      "endFrameIndex": 19,
+      "speed": 1
+    },
+    {
+      "id": "11",
+      "name": "Change Weapon",
+      "startFrameIndex": 20,
+      "endFrameIndex": 21,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "Victory",
+      "startFrameIndex": 22,
+      "endFrameIndex": 24,
+      "speed": 0.4
+    },
+    {
+      "id": "4",
+      "name": "Charge Start",
+      "startFrameIndex": 25,
+      "endFrameIndex": 26,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Charge",
+      "startFrameIndex": 26,
+      "endFrameIndex": 28,
+      "speed": 1
+    },
+    {
+      "id": "13",
+      "name": "Charge 3",
+      "startFrameIndex": 29,
+      "endFrameIndex": 31,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "Attack 1",
+      "startFrameIndex": 33,
+      "endFrameIndex": 35,
+      "speed": 1
+    },
+    {
+      "id": "14",
+      "name": "Attack 2",
+      "startFrameIndex": 36,
+      "endFrameIndex": 40,
+      "speed": 1
+    },
+    {
+      "id": "15",
+      "name": "Attack 3",
+      "startFrameIndex": 41,
+      "endFrameIndex": 48,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "Hit",
+      "startFrameIndex": 49,
+      "endFrameIndex": 49,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "Defense",
+      "startFrameIndex": 50,
+      "endFrameIndex": 52,
+      "speed": -1
+    },
+    {
+      "id": "6",
+      "name": "Die",
+      "startFrameIndex": 53,
+      "endFrameIndex": 58,
+      "speed": 1
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  },
+  "wrapping": "clampToEdge"
+}

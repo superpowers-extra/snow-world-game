@@ -1,0 +1,1397 @@
+[
+  {
+    "id": "58",
+    "name": "Common",
+    "type": null,
+    "children": [
+      {
+        "id": "104",
+        "name": "Battle Data",
+        "type": "script"
+      },
+      {
+        "id": "16",
+        "name": "Game",
+        "type": "script"
+      },
+      {
+        "id": "1",
+        "name": "Input",
+        "type": "script"
+      },
+      {
+        "id": "65",
+        "name": "Utils",
+        "type": "script"
+      },
+      {
+        "id": "29",
+        "name": "Fade",
+        "type": null,
+        "children": [
+          {
+            "id": "28",
+            "name": "Fade Manager",
+            "type": "script"
+          },
+          {
+            "id": "30",
+            "name": "Black Screen",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "Ronda",
+        "type": "font"
+      },
+      {
+        "id": "18",
+        "name": "Ronda Bold",
+        "type": "font"
+      },
+      {
+        "id": "157",
+        "name": "Digit Font",
+        "type": "font"
+      },
+      {
+        "id": "184",
+        "name": "Gold",
+        "type": "sprite"
+      },
+      {
+        "id": "112",
+        "name": "Buttons",
+        "type": null,
+        "children": [
+          {
+            "id": "103",
+            "name": "1 P1",
+            "type": "sprite"
+          },
+          {
+            "id": "159",
+            "name": "1 P2",
+            "type": "sprite"
+          },
+          {
+            "id": "106",
+            "name": "2 P1",
+            "type": "sprite"
+          },
+          {
+            "id": "158",
+            "name": "2 P2",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "187",
+    "name": "Sounds",
+    "type": null,
+    "children": [
+      {
+        "id": "190",
+        "name": "Credits (text)",
+        "type": "script"
+      },
+      {
+        "id": "188",
+        "name": "Menus",
+        "type": null,
+        "children": [
+          {
+            "id": "281",
+            "name": "Theme",
+            "type": "sound"
+          },
+          {
+            "id": "199",
+            "name": "Sparkles",
+            "type": "sound"
+          },
+          {
+            "id": "289",
+            "name": "Game Start",
+            "type": "sound"
+          },
+          {
+            "id": "189",
+            "name": "Select Mode",
+            "type": "sound"
+          },
+          {
+            "id": "284",
+            "name": "Game Over",
+            "type": "sound"
+          },
+          {
+            "id": "297",
+            "name": "Click",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "291",
+        "name": "Map",
+        "type": null,
+        "children": [
+          {
+            "id": "292",
+            "name": "Theme",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "200",
+        "name": "Shop",
+        "type": null,
+        "children": [
+          {
+            "id": "293",
+            "name": "Theme",
+            "type": "sound"
+          },
+          {
+            "id": "201",
+            "name": "Buy Item",
+            "type": "sound"
+          }
+        ]
+      },
+      {
+        "id": "196",
+        "name": "Battle",
+        "type": null,
+        "children": [
+          {
+            "id": "282",
+            "name": "Theme 1",
+            "type": "sound"
+          },
+          {
+            "id": "286",
+            "name": "Hit",
+            "type": "sound"
+          },
+          {
+            "id": "283",
+            "name": "Block",
+            "type": "sound"
+          },
+          {
+            "id": "287",
+            "name": "Pick Up Gold",
+            "type": "sound"
+          },
+          {
+            "id": "197",
+            "name": "Cast Spell",
+            "type": "sound"
+          },
+          {
+            "id": "288",
+            "name": "Cast Instant",
+            "type": "sound"
+          },
+          {
+            "id": "294",
+            "name": "Woosh",
+            "type": "sound"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Menus",
+    "type": null,
+    "children": [
+      {
+        "id": "60",
+        "name": "Splash",
+        "type": null,
+        "children": [
+          {
+            "id": "61",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "62",
+            "name": "Manager",
+            "type": "script"
+          },
+          {
+            "id": "63",
+            "name": "Sparklin Labs",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "53",
+        "name": "Main Menu",
+        "type": null,
+        "children": [
+          {
+            "id": "54",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "59",
+            "name": "Manager",
+            "type": "script"
+          },
+          {
+            "id": "56",
+            "name": "Logo",
+            "type": "sprite"
+          },
+          {
+            "id": "57",
+            "name": "Background",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "17",
+        "name": "Player Setup",
+        "type": null,
+        "children": [
+          {
+            "id": "0",
+            "name": "Scene",
+            "type": "scene"
+          },
+          {
+            "id": "21",
+            "name": "Manager",
+            "type": "script"
+          },
+          {
+            "id": "9",
+            "name": "1 player",
+            "type": "sprite"
+          },
+          {
+            "id": "11",
+            "name": "2 players",
+            "type": "sprite"
+          },
+          {
+            "id": "19",
+            "name": "Highlight",
+            "type": "sprite"
+          },
+          {
+            "id": "186",
+            "name": "Background",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Cutscenes",
+    "type": null,
+    "children": [
+      {
+        "id": "27",
+        "name": "Cutscene Behavior",
+        "type": "script"
+      },
+      {
+        "id": "33",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "35",
+        "name": "Valley",
+        "type": null,
+        "children": [
+          {
+            "id": "36",
+            "name": "Background",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "295",
+        "name": "Temple",
+        "type": null,
+        "children": [
+          {
+            "id": "296",
+            "name": "Background",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "307",
+        "name": "Mountain",
+        "type": null,
+        "children": [
+          {
+            "id": "306",
+            "name": "Background",
+            "type": "sprite"
+          }
+        ]
+      },
+      {
+        "id": "308",
+        "name": "Final Fight",
+        "type": null,
+        "children": [
+          {
+            "id": "305",
+            "name": "Background",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Area Map",
+    "type": null,
+    "children": [
+      {
+        "id": "80",
+        "name": "Generator",
+        "type": "script"
+      },
+      {
+        "id": "77",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "79",
+        "name": "Manager",
+        "type": "script"
+      },
+      {
+        "id": "92",
+        "name": "Path",
+        "type": "sprite"
+      },
+      {
+        "id": "185",
+        "name": "Infinite Background",
+        "type": "shader"
+      },
+      {
+        "id": "81",
+        "name": "Places",
+        "type": null,
+        "children": [
+          {
+            "id": "82",
+            "name": "Start",
+            "type": "sprite"
+          },
+          {
+            "id": "83",
+            "name": "Encounter",
+            "type": "sprite"
+          },
+          {
+            "id": "118",
+            "name": "Encounter (Cleared)",
+            "type": "sprite"
+          },
+          {
+            "id": "84",
+            "name": "Boss",
+            "type": "sprite"
+          },
+          {
+            "id": "119",
+            "name": "Boss (Cleared)",
+            "type": "sprite"
+          },
+          {
+            "id": "85",
+            "name": "Shop",
+            "type": "sprite"
+          },
+          {
+            "id": "91",
+            "name": "Treasure",
+            "type": "sprite"
+          },
+          {
+            "id": "100",
+            "name": "Exit",
+            "type": "sprite"
+          },
+          {
+            "id": "99",
+            "name": "Unknown",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "In-Game",
+    "type": null,
+    "children": [
+      {
+        "id": "7",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "14",
+        "name": "Manager",
+        "type": "script"
+      },
+      {
+        "id": "248",
+        "name": "Chest",
+        "type": "sprite"
+      },
+      {
+        "id": "6",
+        "name": "Player",
+        "type": null,
+        "children": [
+          {
+            "id": "38",
+            "name": "Prefab",
+            "type": "scene"
+          },
+          {
+            "id": "137",
+            "name": "Sprite Prefab",
+            "type": "scene"
+          },
+          {
+            "id": "23",
+            "name": "Behavior",
+            "type": "script"
+          },
+          {
+            "id": "22",
+            "name": "Base",
+            "type": "sprite"
+          },
+          {
+            "id": "127",
+            "name": "Hairs",
+            "type": null,
+            "children": [
+              {
+                "id": "129",
+                "name": "1",
+                "type": "sprite"
+              },
+              {
+                "id": "130",
+                "name": "2",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "131",
+            "name": "Items",
+            "type": null,
+            "children": [
+              {
+                "id": "160",
+                "name": "Staffs",
+                "type": null,
+                "children": [
+                  {
+                    "id": "134",
+                    "name": "Spirit Staff",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "132",
+                    "name": "Physical Staff",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "135",
+                    "name": "Nature Staff",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "163",
+                "name": "Shields",
+                "type": null,
+                "children": [
+                  {
+                    "id": "142",
+                    "name": "Basic Shield",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "139",
+                "name": "Hood",
+                "type": "sprite"
+              },
+              {
+                "id": "145",
+                "name": "Helmet",
+                "type": "sprite"
+              },
+              {
+                "id": "146",
+                "name": "Hood - Helmet",
+                "type": "sprite"
+              },
+              {
+                "id": "138",
+                "name": "Boots",
+                "type": "sprite"
+              },
+              {
+                "id": "141",
+                "name": "Coat",
+                "type": "sprite"
+              },
+              {
+                "id": "140",
+                "name": "Cape",
+                "type": "sprite"
+              },
+              {
+                "id": "143",
+                "name": "Bag",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "95",
+            "name": "Switch Color",
+            "type": "shader"
+          },
+          {
+            "id": "41",
+            "name": "HUD",
+            "type": null,
+            "children": [
+              {
+                "id": "42",
+                "name": "Health",
+                "type": null,
+                "children": [
+                  {
+                    "id": "43",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "44",
+                    "name": "Bar",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "45",
+                    "name": "Top",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "46",
+                "name": "Action",
+                "type": null,
+                "children": [
+                  {
+                    "id": "47",
+                    "name": "Background",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "48",
+                    "name": "Top 2",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "49",
+                    "name": "Top 3",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "50",
+                    "name": "Bar",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "52",
+                    "name": "Charge Bar",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "55",
+                    "name": "Charge Cursor",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "51",
+                    "name": "Complete Bar",
+                    "type": "sprite"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "Enemy",
+        "type": null,
+        "children": [
+          {
+            "id": "70",
+            "name": "Behavior",
+            "type": "script"
+          },
+          {
+            "id": "299",
+            "name": "Boss Behavior",
+            "type": "script"
+          },
+          {
+            "id": "240",
+            "name": "Tutorial Behavior",
+            "type": "script"
+          },
+          {
+            "id": "126",
+            "name": "Die",
+            "type": "shader"
+          }
+        ]
+      },
+      {
+        "id": "66",
+        "name": "Fx",
+        "type": null,
+        "children": [
+          {
+            "id": "180",
+            "name": "Script",
+            "type": "script"
+          },
+          {
+            "id": "68",
+            "name": "Particules",
+            "type": null,
+            "children": [
+              {
+                "id": "69",
+                "name": "Behavior",
+                "type": "script"
+              },
+              {
+                "id": "252",
+                "name": "Thunder",
+                "type": null,
+                "children": [
+                  {
+                    "id": "253",
+                    "name": "1",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "255",
+                    "name": "2",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "256",
+                    "name": "3",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "261",
+                "name": "Rock",
+                "type": null,
+                "children": [
+                  {
+                    "id": "262",
+                    "name": "1",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "263",
+                    "name": "2",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "264",
+                    "name": "3",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "257",
+                "name": "Water",
+                "type": null,
+                "children": [
+                  {
+                    "id": "258",
+                    "name": "1",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "259",
+                    "name": "2",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "260",
+                    "name": "3",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "107",
+                "name": "Fire",
+                "type": null,
+                "children": [
+                  {
+                    "id": "67",
+                    "name": "1",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "101",
+                    "name": "2",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "108",
+                "name": "Ice",
+                "type": null,
+                "children": [
+                  {
+                    "id": "109",
+                    "name": "1",
+                    "type": "sprite"
+                  }
+                ]
+              },
+              {
+                "id": "265",
+                "name": "Crystal",
+                "type": null,
+                "children": [
+                  {
+                    "id": "266",
+                    "name": "1",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "267",
+                    "name": "2",
+                    "type": "sprite"
+                  },
+                  {
+                    "id": "268",
+                    "name": "3",
+                    "type": "sprite"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "178",
+            "name": "Snow",
+            "type": null,
+            "children": [
+              {
+                "id": "181",
+                "name": "Prefab",
+                "type": "scene"
+              },
+              {
+                "id": "173",
+                "name": "1",
+                "type": "sprite"
+              },
+              {
+                "id": "174",
+                "name": "2",
+                "type": "sprite"
+              },
+              {
+                "id": "177",
+                "name": "Diagonal Scroll",
+                "type": "shader"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Areas",
+    "type": null,
+    "children": [
+      {
+        "id": "10",
+        "name": "Valley",
+        "type": null,
+        "children": [
+          {
+            "id": "116",
+            "name": "Map",
+            "type": null,
+            "children": [
+              {
+                "id": "78",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "209",
+                "name": "Top",
+                "type": "sprite"
+              },
+              {
+                "id": "192",
+                "name": "Tree",
+                "type": "sprite"
+              },
+              {
+                "id": "194",
+                "name": "Tree Triple",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "12",
+            "name": "Battlegrounds",
+            "type": null,
+            "children": [
+              {
+                "id": "152",
+                "name": "Castle",
+                "type": "sprite"
+              },
+              {
+                "id": "20",
+                "name": "Ground - Snow",
+                "type": "sprite"
+              },
+              {
+                "id": "154",
+                "name": "Forest",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "155",
+            "name": "Final Boss",
+            "type": "sprite"
+          },
+          {
+            "id": "218",
+            "name": "Enemies",
+            "type": null,
+            "children": [
+              {
+                "id": "250",
+                "name": "Groups",
+                "type": "script"
+              },
+              {
+                "id": "117",
+                "name": "Data",
+                "type": "script"
+              },
+              {
+                "id": "249",
+                "name": "Tutorial",
+                "type": "sprite"
+              },
+              {
+                "id": "34",
+                "name": "Crabi",
+                "type": "sprite"
+              },
+              {
+                "id": "225",
+                "name": "Wild Boar",
+                "type": "sprite"
+              },
+              {
+                "id": "216",
+                "name": "Gladiator",
+                "type": "sprite"
+              },
+              {
+                "id": "227",
+                "name": "Bandit",
+                "type": "sprite"
+              },
+              {
+                "id": "226",
+                "name": "Dragon",
+                "type": "sprite"
+              },
+              {
+                "id": "120",
+                "name": "Crabi Ice",
+                "type": "sprite"
+              },
+              {
+                "id": "230",
+                "name": "Leonard",
+                "type": "sprite"
+              },
+              {
+                "id": "217",
+                "name": "Conan",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "175",
+        "name": "Temple",
+        "type": null,
+        "children": [
+          {
+            "id": "182",
+            "name": "Battlegrounds",
+            "type": null,
+            "children": [
+              {
+                "id": "149",
+                "name": "Cavern",
+                "type": "sprite"
+              },
+              {
+                "id": "150",
+                "name": "Hall",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "151",
+            "name": "Final Boss",
+            "type": "sprite"
+          },
+          {
+            "id": "221",
+            "name": "Enemies",
+            "type": null,
+            "children": [
+              {
+                "id": "251",
+                "name": "Groups",
+                "type": "script"
+              },
+              {
+                "id": "254",
+                "name": "Data",
+                "type": "script"
+              },
+              {
+                "id": "212",
+                "name": "Skeleton",
+                "type": "sprite"
+              },
+              {
+                "id": "214",
+                "name": "Larva",
+                "type": "sprite"
+              },
+              {
+                "id": "25",
+                "name": "Chest Trap",
+                "type": "sprite"
+              },
+              {
+                "id": "105",
+                "name": "Fallen Keeper",
+                "type": "sprite"
+              },
+              {
+                "id": "205",
+                "name": "Mage",
+                "type": "sprite"
+              },
+              {
+                "id": "213",
+                "name": "Skeleton Warrior",
+                "type": "sprite"
+              },
+              {
+                "id": "215",
+                "name": "Mother Larva",
+                "type": "sprite"
+              },
+              {
+                "id": "232",
+                "name": "Traveler",
+                "type": "sprite"
+              },
+              {
+                "id": "239",
+                "name": "Lizard",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "271",
+            "name": "Map",
+            "type": null,
+            "children": [
+              {
+                "id": "272",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "273",
+                "name": "Tree",
+                "type": "sprite"
+              },
+              {
+                "id": "274",
+                "name": "Tree Triple",
+                "type": "sprite"
+              },
+              {
+                "id": "275",
+                "name": "Top",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "176",
+        "name": "Mountain",
+        "type": null,
+        "children": [
+          {
+            "id": "183",
+            "name": "Battlegrounds",
+            "type": null,
+            "children": [
+              {
+                "id": "147",
+                "name": "Clear",
+                "type": "sprite"
+              },
+              {
+                "id": "148",
+                "name": "Dark Forest",
+                "type": "sprite"
+              },
+              {
+                "id": "153",
+                "name": "Bridge",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "156",
+            "name": "Final Boss",
+            "type": "sprite"
+          },
+          {
+            "id": "224",
+            "name": "Enemies",
+            "type": null,
+            "children": [
+              {
+                "id": "301",
+                "name": "Groups",
+                "type": "script"
+              },
+              {
+                "id": "302",
+                "name": "Data",
+                "type": "script"
+              },
+              {
+                "id": "206",
+                "name": "Spider Golem",
+                "type": "sprite"
+              },
+              {
+                "id": "233",
+                "name": "Snow Boar",
+                "type": "sprite"
+              },
+              {
+                "id": "235",
+                "name": "Dark Dragon",
+                "type": "sprite"
+              },
+              {
+                "id": "237",
+                "name": "Dark Knight",
+                "type": "sprite"
+              },
+              {
+                "id": "228",
+                "name": "Giant Golem",
+                "type": "sprite"
+              },
+              {
+                "id": "220",
+                "name": "Horned Giant",
+                "type": "sprite"
+              },
+              {
+                "id": "229",
+                "name": "Boar Rider",
+                "type": "sprite"
+              },
+              {
+                "id": "231",
+                "name": "Final Boss",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "276",
+            "name": "Map",
+            "type": null,
+            "children": [
+              {
+                "id": "277",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "278",
+                "name": "Tree",
+                "type": "sprite"
+              },
+              {
+                "id": "279",
+                "name": "Tree Triple",
+                "type": "sprite"
+              },
+              {
+                "id": "280",
+                "name": "Top",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Shop",
+    "type": null,
+    "children": [
+      {
+        "id": "93",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "121",
+        "name": "Manager",
+        "type": "script"
+      },
+      {
+        "id": "161",
+        "name": "Item Slide Behavior",
+        "type": "script"
+      },
+      {
+        "id": "167",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "166",
+        "name": "Shop Keeper",
+        "type": "sprite"
+      },
+      {
+        "id": "169",
+        "name": "Table",
+        "type": "sprite"
+      },
+      {
+        "id": "88",
+        "name": "Tag",
+        "type": "sprite"
+      },
+      {
+        "id": "168",
+        "name": "Label",
+        "type": "sprite"
+      },
+      {
+        "id": "94",
+        "name": "Items",
+        "type": null,
+        "children": [
+          {
+            "id": "86",
+            "name": "Fish",
+            "type": "sprite"
+          },
+          {
+            "id": "270",
+            "name": "Toast",
+            "type": "sprite"
+          },
+          {
+            "id": "87",
+            "name": "Boots",
+            "type": "sprite"
+          },
+          {
+            "id": "298",
+            "name": "Bag",
+            "type": "sprite"
+          },
+          {
+            "id": "234",
+            "name": "Hood",
+            "type": "sprite"
+          },
+          {
+            "id": "303",
+            "name": "Coat",
+            "type": "sprite"
+          },
+          {
+            "id": "236",
+            "name": "Cape",
+            "type": "sprite"
+          },
+          {
+            "id": "238",
+            "name": "Helmet",
+            "type": "sprite"
+          },
+          {
+            "id": "125",
+            "name": "Physical Staff",
+            "type": "sprite"
+          },
+          {
+            "id": "242",
+            "name": "Nature Staff",
+            "type": "sprite"
+          },
+          {
+            "id": "243",
+            "name": "Spirit Staff",
+            "type": "sprite"
+          },
+          {
+            "id": "245",
+            "name": "Spell Tome 1",
+            "type": "sprite"
+          },
+          {
+            "id": "246",
+            "name": "Spell Tome 2",
+            "type": "sprite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "122",
+    "name": "End",
+    "type": null,
+    "children": [
+      {
+        "id": "300",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "123",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "124",
+        "name": "Manager",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "207",
+    "name": "Game Over",
+    "type": null,
+    "children": [
+      {
+        "id": "208",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "285",
+        "name": "Manager",
+        "type": "script"
+      },
+      {
+        "id": "309",
+        "name": "Background",
+        "type": "sprite"
+      }
+    ]
+  }
+]

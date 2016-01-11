@@ -1,0 +1,162 @@
+{
+  "behaviors": {
+    "PlayerSetupManager": {
+      "scriptId": "21",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PlayerBehavior": {
+      "scriptId": "23",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "isRunning",
+          "type": "boolean"
+        },
+        {
+          "name": "isCharging",
+          "type": "boolean"
+        },
+        {
+          "name": "isDefending",
+          "type": "boolean"
+        }
+      ]
+    },
+    "CutsceneBehavior": {
+      "scriptId": "27",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MainMenuManager": {
+      "scriptId": "59",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameManager": {
+      "scriptId": "14",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SplashManager": {
+      "scriptId": "62",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ProjectileBehavior": {
+      "scriptId": "69",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "target",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "movement",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "speed",
+          "type": "number"
+        }
+      ]
+    },
+    "EnemyBehavior": {
+      "scriptId": "70",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "health",
+          "type": "number"
+        },
+        {
+          "name": "defense",
+          "type": "number"
+        },
+        {
+          "name": "attackIndex",
+          "type": "number"
+        },
+        {
+          "name": "gold",
+          "type": "number"
+        }
+      ]
+    },
+    "AreaMapManager": {
+      "scriptId": "79",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ShopManager": {
+      "scriptId": "121",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "EndManager": {
+      "scriptId": "124",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ItemSlideBehavior": {
+      "scriptId": "161",
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "isOver",
+          "type": "boolean"
+        }
+      ]
+    },
+    "TutorialEnemyBehavior": {
+      "scriptId": "240",
+      "parentBehavior": "EnemyBehavior",
+      "properties": [
+        {
+          "name": "wasHit",
+          "type": "boolean"
+        },
+        {
+          "name": "hasAttacked",
+          "type": "boolean"
+        },
+        {
+          "name": "attackCooldown",
+          "type": "number"
+        }
+      ]
+    },
+    "InstantBehavior": {
+      "scriptId": "69",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "GameOverManager": {
+      "scriptId": "285",
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BossEnemyBehavior": {
+      "scriptId": "299",
+      "parentBehavior": "EnemyBehavior",
+      "properties": [
+        {
+          "name": "attackIndex",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}
