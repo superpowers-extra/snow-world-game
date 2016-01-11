@@ -1,4 +1,4 @@
-# Snow World, a 2 buttons RPG
+# Snow World, a 2-button RPG
 
 [Play Snow World on itch.io](http://sparklinlabs.itch.io/snow-world).
 
