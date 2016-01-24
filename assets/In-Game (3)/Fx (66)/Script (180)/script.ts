@@ -22,7 +22,7 @@ namespace Fx {
     if (strong) {
       snowActor.spriteRenderer
         .setSprite("In-Game/Fx/Snow/2")
-        .getUniforms()["speed"].value = 0.5;
+        .uniforms.setFloat("speed", 0.5);
     }
     return snowActor;
   }

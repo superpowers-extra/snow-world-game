@@ -51,7 +51,8 @@ class PlayerBehavior extends Sup.Behavior {
         setSprite(spriteRndr, `In-Game/Player/Items/${data.protections.bag.name}`);
         break;
     }
-    spriteRndr.getUniforms()["colorIndex"].value = index;
+    spriteRndr.uniforms.setFloat("colorIndex", index);
+    new Sup.ShaderUniforms();
   }
   
   static walkSprites(spriteRndrs: Sup.SpriteRenderer[], callback: (spriteRndr: Sup.SpriteRenderer) => void) {

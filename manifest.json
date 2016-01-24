@@ -2,6 +2,6 @@
   "id": "fRKl",
   "name": "Snow World",
   "description": "Ludum Dare 34",
-  "system": "supGame",
-  "formatVersion": 3
+  "formatVersion": 5,
+  "systemId": "game"
 }
