@@ -10,7 +10,6 @@ class AreaMapManager extends Sup.Behavior {
   private moveDelay = 30;
   private startActor: Sup.Actor;
 
-  private cameraActor: Sup.Actor;
   private cameraX: number;
 
   private activeActionActors: Sup.Actor[] = [];
@@ -37,15 +36,13 @@ class AreaMapManager extends Sup.Behavior {
     this.startActor = this.playerActor.getChild("Start");
     this.startActor.setVisible(false);
     
-    this.cameraActor = Sup.getActor("Camera");
-    
     if (AreaMap.currentArea === "Mountain") {
       let snowActor = Fx.addSnow(AreaMap.playerPlace.position.x < AreaMap.finalPlace.position.x / 2);
-      snowActor.setParent(this.cameraActor);
+      snowActor.setParent(this.actor);
     }
     
     this.cameraX = this.playerActor.getLocalX();
-    this.cameraActor.setLocalX(this.cameraX);
+    this.actor.setLocalX(this.cameraX);
     
     if (AreaMap.playerPlace.childPlaces.length === 1) {
       this.setTargetPlace(AreaMap.playerPlace.childPlaces[0]);
@@ -167,7 +164,7 @@ class AreaMapManager extends Sup.Behavior {
       this.playerActor.setLocalZ(3 - this.playerActor.getLocalY() * 0.01);
       
       this.cameraX = Sup.Math.lerp(this.cameraX, this.playerActor.getLocalX(), 0.1);
-      this.cameraActor.setLocalX(this.cameraX);
+      this.actor.setLocalX(this.cameraX);
       return;
     }
     

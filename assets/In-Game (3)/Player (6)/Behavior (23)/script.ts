@@ -52,7 +52,6 @@ class PlayerBehavior extends Sup.Behavior {
         break;
     }
     spriteRndr.uniforms.setFloat("colorIndex", index);
-    new Sup.ShaderUniforms();
   }
   
   static walkSprites(spriteRndrs: Sup.SpriteRenderer[], callback: (spriteRndr: Sup.SpriteRenderer) => void) {
