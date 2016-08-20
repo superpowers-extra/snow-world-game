@@ -19,7 +19,8 @@
             "overrideOpacity": false,
             "opacity": null,
             "materialType": "shader",
-            "shaderAssetId": "177"
+            "shaderAssetId": "177",
+            "formatVersion": 1
           },
           "id": "0"
         }

@@ -1,5 +1,5 @@
 {
-  "formatVersion": 1,
+  "formatVersion": 2,
   "isBitmap": true,
   "filtering": "pixelated",
   "pixelsPerUnit": 20,
@@ -8,5 +8,6 @@
   "gridWidth": 20,
   "gridHeight": 20,
   "charset": null,
-  "charsetOffset": 32
+  "charsetOffset": 32,
+  "opacity": null
 }

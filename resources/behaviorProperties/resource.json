@@ -7,6 +7,7 @@
     },
     "PlayerBehavior": {
       "scriptId": "23",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
         {
@@ -97,6 +98,7 @@
     },
     "AreaMapManager": {
       "scriptId": "79",
+      "line": 0,
       "parentBehavior": null,
       "properties": []
     },
